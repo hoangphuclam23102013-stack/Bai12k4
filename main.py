@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title='Vuong quoc mo hinh', page_icon=':sparkles')
-with st.slider:
+with st.slider():
     st.title('Vuong quoc mo hinh')
     st.header('Chao mung den voi vuong quoc mo hinh')
     st.image('hinh1.jpg')
